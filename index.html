@@ -10,7 +10,7 @@
 <style>
 :root{--ink:#30284a;--muted:#746d89;--purple:#6246a5;--purple2:#8b6bd1;--pink:#ff8eaa;--cream:#fffaf2;--card:#fff;--line:#eee8f5;--mint:#c9f0df;--yellow:#ffe7a6;--shadow:0 12px 35px rgba(66,47,105,.09)}
 *{box-sizing:border-box}body{margin:0;background:#f8f5ff;color:var(--ink);font-family:ui-rounded,"Trebuchet MS",system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}button,input{font:inherit}button{cursor:pointer;border:0}button:focus-visible,input:focus-visible{outline:3px solid #b49aef;outline-offset:3px}.app{max-width:1120px;margin:auto;padding:0 22px 50px}.topbar{display:flex;align-items:center;justify-content:space-between;padding:22px 0}.brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:20px}.brandmark{width:43px;height:43px;border-radius:15px;background:#fff;display:grid;place-items:center;box-shadow:var(--shadow);font-size:25px}.top-actions{display:flex;gap:9px}.pill{background:#fff;border:1px solid var(--line);padding:10px 15px;border-radius:99px;color:var(--ink);font-weight:800}.hero{background:linear-gradient(115deg,#6044a2,#8969c7 62%,#b79ae9);color:#fff;border-radius:30px;padding:35px 38px;display:grid;grid-template-columns:1.35fr .8fr;align-items:center;overflow:hidden;position:relative;box-shadow:var(--shadow)}.hero:after{content:"";position:absolute;width:330px;height:330px;border-radius:50%;background:rgba(255,255,255,.09);right:8%;top:-180px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:11px;font-weight:900;color:#fce7a9}.hero h1{font-size:clamp(32px,5vw,52px);line-height:1.05;margin:12px 0;max-width:580px}.hero p{color:#eee7ff;line-height:1.6;font-size:16px;max-width:520px}.hero-art{font-size:clamp(95px,15vw,165px);text-align:center;filter:drop-shadow(0 14px 12px rgba(35,20,67,.2));z-index:1}.hero-btn{background:#ffe7a6;color:#493574;padding:14px 20px;border-radius:15px;font-weight:900;margin-top:8px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:15px;margin:34px 0 15px}.section-head h2{font-size:25px;margin:0}.section-head p{color:var(--muted);margin:5px 0 0;font-size:14px}.search{width:min(300px,100%);border:1px solid var(--line);border-radius:14px;padding:12px 15px;background:#fff;color:var(--ink)}.categories{display:flex;gap:9px;flex-wrap:wrap;margin:17px 0 20px}.category{background:#fff;color:#625779;border:1px solid var(--line);border-radius:99px;padding:10px 15px;font-weight:800}.category.active{background:var(--purple);color:#fff;border-color:var(--purple)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}.story-card{background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:0 7px 22px rgba(66,47,105,.05);transition:transform .18s,box-shadow .18s}.story-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.cover{height:155px;display:grid;place-items:center;font-size:76px;position:relative}.cover span{filter:drop-shadow(0 8px 7px rgba(0,0,0,.12))}.cover .heart{position:absolute;right:12px;top:12px;background:#fff;border-radius:50%;width:36px;height:36px;font-size:19px;color:#d75a82}.story-info{padding:16px}.story-info h3{margin:0 0 6px;font-size:18px}.story-info p{margin:0;color:var(--muted);font-size:13px;line-height:1.5;min-height:40px}.meta{display:flex;justify-content:space-between;align-items:center;margin-top:13px;color:#837995;font-size:12px;font-weight:800}.read-btn{background:#f0eaff;color:#5d429c;border-radius:12px;padding:9px 13px;font-weight:900}.empty{grid-column:1/-1;background:#fff;border:1px dashed #d9cdec;padding:30px;border-radius:20px;text-align:center;color:var(--muted)}.footer{text-align:center;color:#938aa4;font-size:12px;padding:35px 0 5px}.overlay{position:fixed;inset:0;background:rgba(34,24,54,.62);z-index:10;display:none;align-items:center;justify-content:center;padding:18px}.overlay.show{display:flex}.reader{width:min(780px,100%);max-height:92vh;overflow:auto;background:var(--cream);border-radius:26px;box-shadow:0 25px 80px rgba(0,0,0,.25)}.reader-top{position:sticky;top:0;background:rgba(255,250,242,.96);backdrop-filter:blur(12px);display:flex;justify-content:space-between;align-items:center;padding:15px 20px;border-bottom:1px solid #eee5d9;z-index:1}.reader-tools{display:flex;gap:7px;flex-wrap:wrap}.tool{background:#fff;border:1px solid #eee5d9;border-radius:12px;padding:9px 12px;color:var(--ink);font-weight:800}.close{font-size:22px;width:39px;height:39px;border-radius:50%;background:#eee8f5;color:var(--ink)}.reader-content{max-width:650px;margin:auto;padding:30px 28px 45px}.reader-cover{text-align:center;font-size:90px;margin:4px 0 15px}.reader-content h2{text-align:center;font-size:clamp(28px,5vw,40px);margin:0 0 8px}.reader-sub{text-align:center;color:var(--muted);margin-bottom:25px}.story-text{font-family:Georgia,serif;line-height:1.9;color:#453c50;white-space:pre-line}.story-text p{margin:0 0 19px}.reader-progress{height:6px;background:#eee5f4;border-radius:99px;overflow:hidden;margin:22px 0}.reader-progress i{display:block;height:100%;background:var(--purple);width:0}.reader-bottom{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:25px}.next-btn{background:var(--purple);color:#fff;padding:13px 18px;border-radius:14px;font-weight:900}.finish{background:#e5f6ed;color:#27734d;padding:13px 18px;border-radius:14px;font-weight:900}.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#30284a;color:#fff;padding:12px 18px;border-radius:99px;z-index:20;display:none;font-size:13px}.toast.show{display:block}@media(max-width:760px){.hero{grid-template-columns:1fr;padding:27px}.hero-art{font-size:85px;position:absolute;right:12px;bottom:10px;opacity:.32}.hero-copy{position:relative;z-index:1}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.section-head{align-items:stretch;flex-direction:column}.search{width:100%}}@media(max-width:480px){.app{padding:0 14px 35px}.topbar{padding:15px 0}.brand{font-size:17px}.brandmark{width:38px;height:38px}.pill{padding:9px 11px;font-size:12px}.hero{border-radius:23px;padding:25px 21px}.hero h1{font-size:34px}.hero p{font-size:14px;max-width:290px}.hero-art{font-size:72px}.grid{grid-template-columns:1fr 1fr;gap:11px}.cover{height:120px;font-size:58px}.story-info{padding:12px}.story-info h3{font-size:15px}.story-info p{font-size:12px;min-height:54px}.meta{font-size:11px;align-items:flex-start;gap:5px;flex-direction:column}.read-btn{width:100%}.reader-content{padding:22px 19px 32px}.reader-tools .tool{padding:8px 9px;font-size:12px}.reader-cover{font-size:72px}}@media(max-width:350px){.grid{grid-template-columns:1fr}}
-</style>
+.scene-art{position:relative;min-height:330px;border-radius:24px;overflow:hidden;margin:22px 0 18px;display:flex;align-items:center;justify-content:center;isolation:isolate;border:5px solid rgba(255,255,255,.8);box-shadow:0 12px 28px rgba(61,43,90,.13);background:linear-gradient(145deg,var(--sky),var(--ground))}.scene-art:before,.scene-art:after{content:"";position:absolute;border-radius:50%;z-index:-1;background:rgba(255,255,255,.35)}.scene-art:before{width:190px;height:190px;right:-35px;top:-70px}.scene-art:after{width:130px;height:130px;left:-35px;top:35px}.scene-sun{position:absolute;right:12%;top:12%;font-size:42px;filter:drop-shadow(0 4px 5px #0002)}.scene-land{position:absolute;left:-5%;right:-5%;bottom:-48px;height:125px;border-radius:50% 50% 0 0;background:var(--land);z-index:-1}.scene-characters{display:flex;align-items:flex-end;justify-content:center;gap:clamp(4px,3vw,25px);width:100%;padding:28px 12px 95px}.scene-character{font-size:clamp(58px,11vw,100px);filter:drop-shadow(0 8px 5px #0002);animation:floaty 3s ease-in-out infinite}.scene-character:nth-child(2){animation-delay:.35s}.scene-character:nth-child(3){animation-delay:.7s}.scene-prop{position:absolute;left:12%;bottom:22%;font-size:clamp(30px,6vw,52px);filter:drop-shadow(0 5px 4px #0002)}.scene-bubble{position:absolute;top:14px;left:50%;transform:translateX(-50%);max-width:82%;background:#fffefa;color:#403650;border:2px solid #fff;border-radius:19px;padding:10px 16px;font:700 15px/1.35 ui-rounded,"Trebuchet MS",sans-serif;text-align:center;box-shadow:0 5px 15px #32234a24}.scene-bubble:after{content:"";position:absolute;bottom:-10px;left:45%;width:16px;height:16px;background:#fffefa;border-right:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(45deg)}.scene-caption{background:rgba(255,253,247,.96);color:#43384e;border-radius:15px;padding:11px 15px;position:absolute;bottom:13px;left:13px;right:13px;font:600 14px/1.45 Georgia,serif;box-shadow:0 4px 14px #32234a18}.scene-caption strong{font:900 10px/1 ui-rounded,"Trebuchet MS",sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#7656ad;display:block;margin-bottom:5px}.scene-hint{text-align:center;color:#887d96;font-size:12px;margin:-5px 0 12px}@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:480px){.scene-art{min-height:285px;border-radius:19px}.scene-bubble{font-size:13px;top:11px;padding:8px 11px}.scene-caption{font-size:12px;bottom:10px;left:9px;right:9px}.scene-characters{padding-bottom:90px}}</style>
 </head>
 <body>
 <div class="app">
@@ -32,7 +32,7 @@
 <div class="overlay" id="readerOverlay" role="dialog" aria-modal="true" aria-label="Lector de cuentos">
  <article class="reader">
   <div class="reader-top"><div class="reader-tools"><button class="tool" id="speakBtn">🔊 Escuchar</button><button class="tool" id="fontDown">A−</button><button class="tool" id="fontUp">A+</button><button class="tool" id="readerFav">♡</button></div><button class="close" id="closeReader" aria-label="Cerrar">×</button></div>
-  <div class="reader-content"><div class="reader-cover" id="readerEmoji">🌙</div><h2 id="readerTitle"></h2><div class="reader-sub" id="readerMeta"></div><div class="reader-progress"><i id="progressBar"></i></div><div class="story-text" id="storyText"></div><div class="reader-bottom"><span id="progressLabel" style="color:#81778f;font-size:13px">Escena 1</span><button class="next-btn" id="nextScene">Siguiente escena →</button></div></div>
+  <div class="reader-content"><div class="reader-cover" id="readerEmoji">🌙</div><h2 id="readerTitle"></h2><div class="reader-sub" id="readerMeta"></div><div class="reader-progress"><i id="progressBar"></i></div><div id="sceneIllustration"></div><div class="story-text" id="storyText"></div><div class="reader-bottom"><span id="progressLabel" style="color:#81778f;font-size:13px">Escena 1</span><button class="next-btn" id="nextScene">Siguiente escena →</button></div></div>
  </article>
 </div>
 <div class="toast" id="toast"></div>
@@ -45,6 +45,188 @@ const stories = [
 {id:"nube",title:"La nube que quería abrazar",category:"Para dormir",emoji:"☁️",time:3,color:"#e8e2ff",description:"Una nube pequeñita busca la manera de dar cariño a todo el valle.",scenes:["En lo alto del cielo vivía Nubi, una nube pequeña y esponjosa. Le encantaba mirar el valle, pero sentía que era demasiado pequeña para ayudar a alguien.\n\n—Quisiera dar un abrazo a todos —susurraba mientras flotaba.","Una mañana vio que las flores tenían sed y que el río estaba bajito. Nubi reunió gotitas de agua y las dejó caer despacito sobre el jardín. Las flores levantaron sus caritas y el valle se llenó de colores.\n\nDespués, una brisa llevó su sombra fresca hasta los animalitos que descansaban bajo el sol.","Al atardecer, Nubi se pintó de rosa y naranja. Los niños del valle la miraron desde sus ventanas y sonrieron.\n\n—¡Parece un abrazo en el cielo! —dijo una niña.\n\nNubi se sintió feliz. Había descubierto que un abrazo también puede ser una gota de lluvia, una sombra fresca o una sonrisa.","Cuando llegó la noche, Nubi se acomodó junto a la luna. El viento le cantó una canción suave y ella cerró los ojos. Desde entonces, cada noche el valle recibe un abrazo de nube antes de dormir."]},
 {id:"pinguino",title:"Pipo y el gran salto",category:"Aventuras",emoji:"🐧",time:5,color:"#d9f3f5",description:"Un pequeño pingüino encuentra el valor para intentar algo nuevo.",scenes:["Pipo vivía entre montañas de hielo y soñaba con saltar desde una roca alta hasta la nieve blandita. Sus amigos lo hacían con facilidad, pero él sentía cosquillas de miedo en la barriga.\n\n—¿Y si no puedo? —preguntaba.","Su abuela se sentó a su lado.\n\n—El valor no significa no tener miedo —le dijo—. Significa intentarlo poco a poco, con cuidado y cuando estés preparado.\n\nPipo comenzó practicando desde una piedrita pequeña. Luego desde otra un poquito más alta.","Cada día Pipo practicó acompañado por sus amigos. A veces resbalaba y otras veces aterrizaba sentado, pero siempre se levantaba riendo. Una mañana llegó hasta la roca grande. Respiró profundamente, miró la nieve y contó hasta tres.","¡Salto! Pipo voló por el aire y aterrizó suavemente en la nieve. Sus amigos aplaudieron y su abuela le guiñó un ojo.\n\nPipo aprendió que cada pequeño intento lo había acercado a su sueño. No tenía que hacerlo perfecto: solo necesitaba empezar."]}
 ];
+const sceneArt = {
+  "zorro": [
+    [
+      "Bosque encantado",
+      "🌲",
+      "🌟",
+      "🌙",
+      "—¡Una estrella se ha perdido!"
+    ],
+    [
+      "Arroyo brillante",
+      "💧",
+      "✨",
+      "🪲",
+      "—¡Yo puedo ayudarte!"
+    ],
+    [
+      "La cueva secreta",
+      "🪨",
+      "🌟",
+      "🦉",
+      "—Mi brillo se ha apagado."
+    ],
+    [
+      "Noche estrellada",
+      "🌌",
+      "⭐",
+      "🦊",
+      "—Gracias por no dejarme sola."
+    ]
+  ],
+  "tortuga": [
+    [
+      "El jardín de Luna",
+      "🌿",
+      "🐇",
+      "🦋",
+      "—¡Siempre voy más despacio!"
+    ],
+    [
+      "La carrera del bosque",
+      "🌳",
+      "🏁",
+      "🦋",
+      "—Tu paciencia me ha salvado."
+    ],
+    [
+      "La colina de los deseos",
+      "🌄",
+      "🍃",
+      "🦉",
+      "—¡Luna, llegaste!"
+    ],
+    [
+      "Un camino feliz",
+      "🌼",
+      "🏅",
+      "🐢",
+      "—No siempre gana quien llega primero."
+    ]
+  ],
+  "dragon": [
+    [
+      "El reino Arcoíris",
+      "🏰",
+      "🫧",
+      "🌈",
+      "—¡Qué dragón tan extraño!"
+    ],
+    [
+      "La nube gris",
+      "⛈️",
+      "🫧",
+      "🐉",
+      "—¡Puedo intentarlo!"
+    ],
+    [
+      "Un arcoíris mágico",
+      "🌈",
+      "🌸",
+      "🫧",
+      "—¡Lo lograste, Bruno!"
+    ],
+    [
+      "El cielo de colores",
+      "🎨",
+      "🐉",
+      "🌈",
+      "—Ser diferente es maravilloso."
+    ]
+  ],
+  "conejo": [
+    [
+      "El tesoro de Milo",
+      "🌙",
+      "💎",
+      "🐰",
+      "—Esta piedra será solo mía."
+    ],
+    [
+      "El bosque oscuro",
+      "🌲",
+      "🦔",
+      "🦆",
+      "—Podemos usarla para iluminar el sendero."
+    ],
+    [
+      "El camino iluminado",
+      "✨",
+      "🐿️",
+      "🦔",
+      "—¡Gracias, Milo!"
+    ],
+    [
+      "La alegría compartida",
+      "🌕",
+      "💎",
+      "🐰",
+      "—Compartir multiplica la felicidad."
+    ]
+  ],
+  "nube": [
+    [
+      "Una nube pequeñita",
+      "☁️",
+      "🌤️",
+      "🌈",
+      "—Quisiera dar un abrazo a todos."
+    ],
+    [
+      "La lluvia de cariño",
+      "🌧️",
+      "🌷",
+      "🐦",
+      "—¡Las flores tienen sed!"
+    ],
+    [
+      "Un abrazo en el cielo",
+      "🌅",
+      "☁️",
+      "👧",
+      "—¡Parece un abrazo en el cielo!"
+    ],
+    [
+      "Buenas noches, valle",
+      "🌙",
+      "⭐",
+      "☁️",
+      "—Dulces sueños, pequeño valle."
+    ]
+  ],
+  "pinguino": [
+    [
+      "El sueño de Pipo",
+      "🧊",
+      "🐧",
+      "❄️",
+      "—¿Y si no puedo?"
+    ],
+    [
+      "El consejo de la abuela",
+      "🏔️",
+      "🐧",
+      "🧣",
+      "—El valor significa intentarlo poco a poco."
+    ],
+    [
+      "Día de práctica",
+      "❄️",
+      "🐧",
+      "🐾",
+      "—¡Un intento más!"
+    ],
+    [
+      "El gran salto",
+      "🏔️",
+      "🐧",
+      "🎉",
+      "—¡Lo logré!"
+    ]
+  ]
+};
 const categories=["Todos","Aventuras","Animales","Fantasía","Valores","Para dormir"];
 let activeCategory="Todos",showFavorites=false,currentStory=null,currentScene=0,fontSize=19;
 let favorites=JSON.parse(localStorage.getItem("casita_favorites")||"[]");
@@ -63,7 +245,24 @@ function renderStories(){
 function toggleFavorite(id){favorites=favorites.includes(id)?favorites.filter(x=>x!==id):favorites.concat(id);saveFavorites();renderStories();if(currentStory&&currentStory.id===id)updateReaderFavorite();}
 function updateReaderFavorite(){$("readerFav").textContent=favorites.includes(currentStory.id)?"♥ Guardado":"♡ Favorito";}
 function openStory(id){currentStory=stories.find(s=>s.id===id);if(!currentStory)return;currentScene=0;$("readerOverlay").classList.add("show");document.body.style.overflow="hidden";$("readerEmoji").textContent=currentStory.emoji;$("readerTitle").textContent=currentStory.title;$("readerMeta").textContent=currentStory.category+" · "+currentStory.time+" minutos de lectura";updateReaderFavorite();renderScene();if(progress[id]===currentStory.scenes.length)toast("¡Ya leíste este cuento! Puedes disfrutarlo otra vez.");}
-function renderScene(){const scene=currentStory.scenes[currentScene];$("storyText").style.fontSize=fontSize+"px";$("storyText").innerHTML=scene.split("\n\n").map(p=>"<p>"+p+"</p>").join("");$("progressBar").style.width=((currentScene+1)/currentStory.scenes.length*100)+"%";$("progressLabel").textContent="Escena "+(currentScene+1)+" de "+currentStory.scenes.length;$("nextScene").textContent=currentScene===currentStory.scenes.length-1?"Terminar cuento ✓":"Siguiente escena →";}
+function escapeHTML(value){return String(value).replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));}
+function renderScene(){
+ const scene=currentStory.scenes[currentScene], art=sceneArt[currentStory.id][currentScene];
+ const paragraphs=scene.split("\n\n").filter(Boolean);
+ const dialogue=(scene.match(/—[^\n]+/)||[])[0]||art[4];
+ const narration=paragraphs[0]||"Una nueva aventura está por comenzar.";
+ const cast=[currentStory.emoji,art[2],art[3]].filter((v,i,a)=>v&&a.indexOf(v)===i).slice(0,3);
+ const palettes={
+  zorro:["#b9e5f0","#d4edb6","#78ae72"],tortuga:["#d5f0ce","#f8edb0","#8ab77c"],dragon:["#e8d9ff","#ffd9ec","#9b7bc8"],conejo:["#dceaff","#f5e4f4","#92acd2"],nube:["#dce8ff","#ffe2d4","#a4b8dd"],pinguino:["#d9f3fa","#e8f4ff","#83b8c9"]
+ };
+ const colors=palettes[currentStory.id];
+ $("sceneIllustration").innerHTML='<div class="scene-art" role="img" aria-label="'+escapeHTML(art[0]+". "+narration)+'" style="--sky:'+colors[0]+';--ground:'+colors[1]+';--land:'+colors[2]+'"><div class="scene-sun">'+art[1]+'</div><div class="scene-land"></div><div class="scene-prop">'+art[2]+'</div><div class="scene-bubble">'+escapeHTML(dialogue)+'</div><div class="scene-characters">'+cast.map(c=>'<span class="scene-character">'+c+'</span>').join("")+'</div><div class="scene-caption"><strong>'+escapeHTML(art[0])+'</strong>'+escapeHTML(narration)+'</div></div><div class="scene-hint">✨ Ilustración de la escena · Lee el diálogo y descubre qué sucede</div>';
+ $("storyText").style.fontSize=fontSize+"px";
+ $("storyText").innerHTML=paragraphs.slice(1).map(p=>"<p>"+escapeHTML(p)+"</p>").join("");
+ $("progressBar").style.width=((currentScene+1)/currentStory.scenes.length*100)+"%";
+ $("progressLabel").textContent="Escena "+(currentScene+1)+" de "+currentStory.scenes.length;
+ $("nextScene").textContent=currentScene===currentStory.scenes.length-1?"Terminar cuento ✓":"Siguiente escena →";
+}
 function closeStory(){if("speechSynthesis"in window)speechSynthesis.cancel();$("readerOverlay").classList.remove("show");document.body.style.overflow="";currentStory=null;}
 function nextScene(){if(currentScene<currentStory.scenes.length-1){currentScene++;renderScene();}else{progress[currentStory.id]=currentStory.scenes.length;localStorage.setItem("casita_progress",JSON.stringify(progress));toast("¡Fin del cuento! ¡Muy bien, pequeño lector! ⭐");closeStory();renderStories();}}
 function speakStory(){if(!("speechSynthesis"in window)){toast("La lectura en voz alta no está disponible en este navegador.");return;}if(speechSynthesis.speaking){speechSynthesis.cancel();$("speakBtn").textContent="🔊 Escuchar";return;}const utterance=new SpeechSynthesisUtterance(currentStory.scenes[currentScene]);utterance.lang="es-CO";utterance.rate=.88;utterance.pitch=1.05;utterance.onend=()=>$("speakBtn").textContent="🔊 Escuchar";$("speakBtn").textContent="⏸ Detener";speechSynthesis.speak(utterance);}
