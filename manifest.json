@@ -1,0 +1,11 @@
+{
+  "name": "La Casita de los Cuentos",
+  "short_name": "Cuentos",
+  "description": "Una biblioteca mágica de cuentos infantiles para leer, escuchar y soñar.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8f5ff",
+  "theme_color": "#6246a5",
+  "icons": []
+}
